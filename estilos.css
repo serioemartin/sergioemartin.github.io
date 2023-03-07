@@ -1,0 +1,103 @@
+
+body{
+    background-color: rgb(235, 235, 137);
+}
+header{
+    background-color: rgb(33, 85, 116);
+    color: white;
+    height: 50px;
+   padding-bottom: 5px;
+    box-shadow: -4px -4px 10px black,
+                 4px 4px 10px black;
+
+}
+section .menu{
+    margin-top: 1px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 75px;
+    
+}
+section .menu img{
+   border-radius: 20px;
+  box-shadow: 5px 5px 10px blue,
+             -5px -5px 10px blue;
+}
+aside .main{
+    margin-top: 1px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+}
+aside .main h3{
+    padding-left: 50px;
+}
+article{
+    margin-top: 10px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: beige;
+    box-shadow:  3px 3px 5px black,
+                -3px -3px 5px black;
+
+}
+article h3, footer h3{
+    font-size: 12px;
+}
+footer{
+    padding-top: 15px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    line-height: 2px;
+    background-color: beige;
+    box-shadow: -5px -5px 10px black,
+                  5px 5px 10px black;
+}
+
+h1{
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 3px;
+    padding-left: 12%;
+}
+h2{
+    font-size: 18px;
+    line-height: 25%;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+   
+    font-weight: bold;
+}
+h3{
+    font-weight: bold;
+    margin-top: 1px;
+    padding-top: 5px;
+    padding-left: 6px;
+}
+pre{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 0px;
+}
+p{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+button{
+    font-size: 16px;
+    line-height: 25px;
+    border-radius: 10px 12px 10px 12px;
+    box-shadow: inset 3px 3px 10px gray,
+               -3px -3px 10px gray;
+}

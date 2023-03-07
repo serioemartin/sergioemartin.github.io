@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRICULUM VITAE</title>
+
+    <link rel="icon" type="imagen/x-icon" href="dato_cv/file-solid.svg">
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <style>
+        *{box-sizing: border-box;}
+              
+        .menu{ 
+                width: 35%;
+                float: left; 
+               
+               }
+            .main{
+                width: 65%;
+                float: left;
+            } 
+            /** Declaro Media Query para dispositivos SARTPHONE, hasta un ancho maximo de 767px */
+          @media screen and (max-width: 767px){
+               .menu,
+               .main{
+                    width: 100%;
+                    float: none;
+             }} 
+             /**Defino un Media con ancho mayor a 767px y su estilo de hoja */
+         @media screen and (min-width: 768px) {
+              section .menu{
+                    width: 40%;
+
+                }
+                aside .main{
+                    width: 60%;
+                    padding-left: 4px;
+
+                }
+               section .menu{
+                    padding-left: 15%; 
+
+                }
+               section .menu img{
+                    height: 180px;
+                    width: 200px;
+
+                }
+               aside .main h3, u{
+                    font-size: 18px;
+                    padding-left: 15px;
+                    padding-top: 1px;
+
+                }
+                article{
+                    margin-top: 200px;
+                    margin-right: 3px;
+                    margin-bottom: 1px;
+                    margin-left: 5px;
+                    padding-bottom: 1px;
+
+                }
+                footer{ 
+                 margin-top: 18px;
+                    margin-right: 3px;
+                    margin-bottom: 1px;
+                    margin-left: 5px;
+                    padding-bottom: 1px; 
+                }
+                h1{
+                   font-size: 36px;
+                   padding-top: 5px;
+                   padding-bottom: 3px;
+                   padding-left: 23%;
+
+                }
+                h2{
+                   font-size: 24px;
+                   line-height: 25%;
+                   padding-top: 5px;  
+
+                }
+                p{
+                   font-size: 16px;
+                   font-weight: normal;
+                   padding-left: 20px;
+                }
+            }
+              
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <h1>CURRUCULUM VITAE</h1>
+        
+    </header> 
+    <section>
+        <div class="menu">
+            <img src="dato_cv/foto_casual.jpg" alt="foto de Serio Descont" height="200px" width="200px"/>
+        </div>
+    </section>
+
+    <aside>
+        <div class="main">
+            <h2>SERIO ARMANDO DESCONT</h2>
+            <h3>Director de Hoteles</h3>
+            <p></p><img src="dato_cv/location-dot-solid.svg" alt="Locación" height="12px" width="12px"/>
+             <b> Calle Sevilla 17. Palma de M. (0700)</b></p>
+            <p></p><img src="dato_cv/phone-solid.svg" alt="telefono" height="12px" width="12px"/>
+             <b> (*34)97 100 00 00/ (*34)600 00 00 </b></p>
+            <p></p><img src="dato_cv/envelope-regular.svg" alt="e-mail" height="12px" width="12px"/>
+              <b>sergioemartin@hotmail.com</b>
+            </p>
+        </div>
+
+    </aside>
+    <article>
+        <h3><u>PERFIL</u></h3>
+            
+            <p>Director de hotel y apacionado de los resultados a travez de la calidad y el desarrollo de las personas
+            del equipo a mi cargo. Aspiro a conseguir los resultados perseguidos en un 150%, al tiempo que creo un
+            clima laboral saludable, inspirador y entusiasta.</p>
+           
+            <ul>
+               <li><p>En Urban y Urban-Beach-Hotels</p></li>
+               <li><p>Experiencia en 4' y 5' Hotels</p></li>
+            </ul>
+
+    </article> 
+    <footer>  
+        <h3><u>EXPERIENCIA</u></h3>
+
+        <ul>
+            <li><p>Actual: Hotel Water / <strong> General Manager</strong></p></li>
+            <li><p>2015 a 2022: Hotel Meliá / Gerente de Restorante</p></li>
+            <li><p>2007 a 2022: Control de las diferentes unidades de negocios, 
+             estableciendo planes de desarrollo y mejoras.</p></li>
+        </ul>
+
+        <h3><u>COMPETENCIAS</u></h3>
+             <p><img src="dato_cv/medal-solid.svg" alt="Calidicación" height="15px" width="15px"/><strong> Gestion y dirección de Hoteles</strong></p>
+          
+        <h3>Public Relations</h3>
+           <p><img src="dato_cv/medal-solid.svg" alt="Calidicación" height="15px" width="15px"/><strong> Negociación </strong></p>
+             <pre>
+            <p><strong>5 años de experiencia.</strong></p>
+             </pre>
+            
+            <p id="demo">Un click para obervar y dos click para ocultar</p>
+            <button type="button" id="boton"><h3><u>IDIOMAS</u></h3></button>
+            <script src="js/IDIOMA.js" ></script>
+       
+    </footer>  
+</body>
+</html>
